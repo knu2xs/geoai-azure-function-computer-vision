@@ -44,3 +44,4 @@ __pycache__/
 azure_function_project.zip
 
 .DS_Store
+.env
