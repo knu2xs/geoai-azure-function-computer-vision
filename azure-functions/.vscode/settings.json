@@ -1,0 +1,14 @@
+{
+  "python.pythonPath": ".env/bin/python",
+  "azureFunctions.projectRuntime": "~2",
+  "azureFunctions.projectLanguage": "Python",
+  "azureFunctions.templateFilter": "Verified",
+  "azureFunctions.deploySubpath": "azure_function_project.zip",
+  "azureFunctions.preDeployTask": "funcPack",
+  "files.exclude": {
+    "obj": true,
+    "bin": true
+  },
+  "azureFunctions.pythonVenv": ".env",
+  "debug.internalConsoleOptions": "neverOpen"
+}
